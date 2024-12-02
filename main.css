@@ -19,3 +19,28 @@ html {
   max-width: 800px;
   padding: 0 15px;
 }
+
+#add-to-discord {
+  background-color: #5865F2; /* Blurple */
+  color: #FFFFFF; /* White */
+  text-decoration: none; /* Remove underline */
+  padding: 10px 20px; /* Padding for the button */
+  border-radius: 5px; /* Rounded corners */
+  display: inline-flex; /* Use flexbox for alignment */
+  align-items: center; /* Center items vertically */
+  font-size: 16px; /* Font size */
+  font-weight: bold; /* Bold text */
+  transition: background-color 0.3s ease; /* Smooth transition */
+  vertical-align: middle; /* Align vertically with other elements */
+
+}
+
+#add-to-discord:hover {
+  background-color: #4b55c1; /* Darker blurple on hover */
+}
+
+.discord-logo {
+  height: 20px; /* Logo height */
+  width: auto; /* Maintain aspect ratio */
+  margin-right: 10px; /* Space between logo and text */
+}
